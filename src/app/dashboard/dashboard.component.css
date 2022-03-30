@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+.image-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.image-box > div {
+    height: 18rem;
+    width: 14rem;
+    margin: 0.5rem;
+}
+
+.data-container {
+    height: 14rem;
+    width: 14rem;
+}
+
+img.image {
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.small-text {
+    font-size: small;
+    font-style: italic;
+}

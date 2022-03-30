@@ -34,8 +34,3 @@ img.image {
     min-height: 100%;
     min-width: 100%;
 }
-
-.small-text {
-    font-size: small;
-    font-style: italic;
-}

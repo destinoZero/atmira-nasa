@@ -1,1 +1,14 @@
-<h1>Dashboard</h1>
+<header>
+    <h1>Dashboard</h1>
+</header>
+<section class="images-container">
+    <div class="image-box">
+        <div *ngFor="let item of imagesArray">
+            <div class="data-container">
+                <img class="image" [src]="item.url"><br>
+                <span class="small-text">{{item.date}}</span><br>
+                <span class="small-text">{{item.title}}</span>
+            </div>
+        </div>
+    </div>
+</section>

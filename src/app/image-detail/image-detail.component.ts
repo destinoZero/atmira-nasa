@@ -23,7 +23,7 @@ export class ImageDetailComponent implements OnInit {
     });
   }
 
-  backToDashboard() {
+  backToDashboard(): void {
     this.router.navigateByUrl('/dashboard');
   }
 }
